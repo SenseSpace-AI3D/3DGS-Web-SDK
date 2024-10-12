@@ -1,4 +1,5 @@
 # 3DGS SDK WebGL
+![](doc/sensespace.jpg)
 
 版本v0.7.0, 发布日期: 2024年10月9日
 
