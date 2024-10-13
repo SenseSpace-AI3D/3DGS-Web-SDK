@@ -13,8 +13,8 @@
                 
 # 目录
 
-- [文件结构](#文件结构)
 - [功能列表](#功能列表)
+- [文件结构](#文件结构)
 - [运行](#运行)
 - [Example说明](#Example说明)
 - - [集成Babylon.js](#集成Babylon.js)
@@ -24,18 +24,9 @@
 - [更新日志](#更新日志)
 
 
-
-##  文件结构
-- data: 需要加载的示例数据
-- splat: 3DGS SDK打包好的文件
-- examples: 示例
-  - babylon: Babylon.js集成示例
-  - cesium: Cesium.js集成示例
-  - three: Three.js集成示例
-
   
 
-##  功能列表
+#  功能列表
 
 ### 数据支持
 - ply（完整的/去掉球谐法向的）
@@ -65,11 +56,21 @@
 - 外部坐标系同步（WGS84）
 
 
-## 运行
+
+#  文件结构
+- data: 需要加载的示例数据
+- splat: 3DGS SDK打包好的文件
+- examples: 示例
+  - babylon: Babylon.js集成示例
+  - cesium: Cesium.js集成示例
+  - three: Three.js集成示例
+
+
+# 运行
 在3DGS-SDK根目录下起一个http服务器（端口随意），即可访问examples下的示例
 ![](example/example.jpg)
 
-## Example说明
+# Example说明
 
 详细使用请参考各示例程序的说明，接口API文档`splat/splat.d.ts`
 
@@ -261,11 +262,11 @@ const render = () => {
 // ...
 ```
 
-##  试用申请
+#  试用申请
 ![](doc/sensespace.jpg)
 
 
-##  更新日志
+#  更新日志
 
 ### v0.7.0
 - 同步最新版本的3DGS实现，有性能优化
