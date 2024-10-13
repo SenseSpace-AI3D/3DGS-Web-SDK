@@ -3,8 +3,6 @@
 <table>
     <tr>
         <td><center><video width = 450 src="https://github.com/user-attachments/assets/75bbf7b8-49cb-43e4-9787-8c32dc83b5db">求交及遮挡</center></td>
-    </tr>
-    <tr>
         <td><center><video width = 450 src="https://github.com/user-attachments/assets/adda70a7-cb86-4a68-b8fa-c339b395c524">轮廓线高亮</center></td>
     </tr>
     <tr>
