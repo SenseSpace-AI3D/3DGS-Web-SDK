@@ -1,20 +1,27 @@
 # 宇琼SenseSpace 3DGS SDK 
 
-“商汤琼宇SenseSpace”高精实景三维重建平台，具备城市级大尺度的空间AI 重建能力和模型AI编辑能力，提供Capture Tool数据采集、Creator场景生成、Editor场景编辑、Plugin应用开发等完善的工具服务。琼宇可广泛应用于实景三维、CIM平台、数字孪生、云上看馆、影视媒体等场景，满足各行业对实景三维制作及可视化业务的应用需求。高精实景三维重建平台作为一项创新科技，正在引领城市未来的发展，并为智慧城市的构建提供强有力的支持。
-- Capture Tool 数据采集：提供采集软件、标准采集流程以及数据采集服务。
-- Creator 场景生成：支持实景三维重建云服务和私有化部署，提供重建数据管理、场景重建、场景预览、重建结果报告等功能。
-- Editor 场景编辑：对生成的三维场景进行编辑，包括裁剪、拼接、单体化等，包含Web端创意工坊和本地客户端。
-- Plugin 应用开发：面向开发者提供SDK开发套件，支持在UE、Unity引擎中导入资产进行应用开发。
-
 # 目录
 
 - [文件结构](#文件结构)
 - [功能列表](#功能列表)
-- [Papers](#Papers)
-- - [Architecture](#architecture)
-- - [Business](#business)
+- [运行](#运行)
+- [Example说明](#Example说明)
+- - [集成Babylon.js](#集成Babylon.js)
+- - [集成Three.js](#集成Three.js)
+- - [集成Cesium.js](#集成Cesium.js)
+- [试用申请](#试用申请)
+- [更新日志](#更新日志)
 
-  
+
+  <table>
+    <tr>
+        <td><center><video src="https://github.com/openxrlab/xrapi/assets/2736286/297e56ef-a59d-4458-a372-45010f3d17af" >demo01</center></td>
+        <td ><center><video src="https://github.com/openxrlab/xrapi/assets/2736286/b6a2ca47-52d4-4393-a430-24c388b16c47"  >demo01</center> </td>
+        <td ><center><video src="https://github.com/openxrlab/xrapi/assets/2736286/11bffaa9-bbe9-44be-9648-a2b9af41c98f"  >demo01</center> </td>
+    </tr>
+</table>
+
+
 
 ##  文件结构
 - data: 需要加载的示例数据
@@ -56,11 +63,11 @@
 - 外部坐标系同步（WGS84）
 
 
-## 使用
+## 运行
 在3DGS-SDK根目录下起一个http服务器（端口随意），即可访问examples下的示例
 ![](example/example.jpg)
 
-## 使用说明
+## Example说明
 
 详细使用请参考各示例程序的说明，接口API文档`splat/splat.d.ts`
 
@@ -252,7 +259,7 @@ const render = () => {
 // ...
 ```
 
-##  试用方式
+##  试用申请
 ![](doc/sensespace.jpg)
 
 
