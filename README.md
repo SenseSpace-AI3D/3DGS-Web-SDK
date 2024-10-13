@@ -15,15 +15,14 @@
 # 目录
 
 - [功能列表](#功能列表)
+- [试用申请](#试用申请)
 - [文件结构](#文件结构)
+- [运行Demo](#运行Demo)
 - [Example说明](#Example说明)
 - - [集成Babylon.js](#集成Babylon.js)
 - - [集成Three.js](#集成Three.js)
 - - [集成Cesium.js](#集成Cesium.js)
-- [试用申请](#试用申请)
-- [运行Demo](#运行Demo)
 - [更新日志](#更新日志)
-
 
   
 
@@ -57,6 +56,9 @@
 - 外部坐标系同步（WGS84）
 
 
+#  试用申请
+<img src=./doc/sensespace.jpg height=600 /> 
+
 
 #  文件结构
 - data: 需要加载的示例数据
@@ -65,6 +67,11 @@
   - babylon: Babylon.js集成示例
   - cesium: Cesium.js集成示例
   - three: Three.js集成示例
+
+
+
+# 运行Demo
+在3DGS-SDK根目录下起一个http服务器（端口随意），即可访问examples下的示例
 
 
 # Example说明
@@ -258,14 +265,6 @@ const render = () => {
 
 // ...
 ```
-
-#  试用申请
-<img src=./doc/sensespace.jpg height=600 /> 
-
-
-# 运行Demo
-在3DGS-SDK根目录下起一个http服务器（端口随意），即可访问examples下的示例
-
 
 
 #  更新日志
