@@ -68,7 +68,7 @@
 
 # 运行
 在3DGS-SDK根目录下起一个http服务器（端口随意），即可访问examples下的示例
-![](example/example.jpg)
+![](doc/example.jpg)
 
 # Example说明
 
