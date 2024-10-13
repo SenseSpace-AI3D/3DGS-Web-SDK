@@ -99,7 +99,7 @@ const retrieveTextures = () => {
 
 示例程序位于`examples/babylon`，入口为`index.js`，创建了一个简单的Babylon场景和一个3DGS场景。先渲染3DGS场景，获取了3DGS渲染的颜色纹理和深度纹理，使用`bufferWriter.js`将纹理写入画面，再渲染Babylon场景，基于已写入的深度缓冲做深度测试。双击时根据3DGS深度纹理计算深度，摆放小球。
 
-![](doc/example-babylon.jpg)
+<img src=./doc/example-babylon.jpg height=450 /> 
 
 ```javascript
 /// examples/cesium/index.js
@@ -149,7 +149,7 @@ const handleDoubleClick = (event) => {
 
 示例程序位于`examples/three`，入口为`index.js`，创建了一个简单的Three.js场景和一个3DGS场景。先渲染3DGS场景，获取了3DGS渲染的颜色纹理和深度纹理，使用`bufferWriter.js`将纹理写入画面，再渲染Three.js场景，基于已写入的深度缓冲做深度测试。双击时根据3DGS深度纹理计算深度，摆放小球。
 
-![](doc/example-threejs.jpg)
+<img src=./doc/example-threejs.jpg height=450 /> 
 
 ```javascript
 /// examples/babylon/index.js
@@ -207,7 +207,7 @@ const handleDoubleClick = (event) => {
 
 示例程序位于`examples/cesium`，入口为`index.js`，创建了一个简单的Cesium场景和一个3DGS场景，分别获取了Cesium和3DGS渲染的颜色纹理和深度纹理，使用`blender.js`将4张纹理进行混合，输出到最终画面。
 
-![](doc/example-cesium.png)
+<img src=./doc/example-cesium.jpg height=450 /> 
 
 ```javascript
 /// examples/cesium/index.js
@@ -249,11 +249,12 @@ const render = () => {
 
 #  试用申请
 ![](doc/sensespace.jpg)
+<img src=./doc/sensespace.jpg height=450 /> 
 
 
 # 运行Demo
 在3DGS-SDK根目录下起一个http服务器（端口随意），即可访问examples下的示例
-![](doc/example.jpg)
+<img src=./doc/example height=450 /> 
 
 
 
