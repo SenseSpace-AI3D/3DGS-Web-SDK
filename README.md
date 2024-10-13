@@ -1,26 +1,15 @@
 # SenseSpace 3DGS SDK 
 
-<table>
-    <tr>
-        <td><center><video width = 450 src="https://github.com/user-attachments/assets/ba333ffc-55d0-449d-8464-9fe4742926d6">Cesium集成</center</td>
-        <td><center><video width = 450 src="https://github.com/user-attachments/assets/75bbf7b8-49cb-43e4-9787-8c32dc83b5db">求交及遮挡</center></td>
-    </tr>
-    <tr>
-        <td><center><video width = 450 src="https://github.com/user-attachments/assets/abad4274-b008-402c-95df-efd1444c1ceb">GIS位置及标签</center</td>
-        <td><center><video width = 450 src="https://github.com/user-attachments/assets/adda70a7-cb86-4a68-b8fa-c339b395c524">轮廓线高亮</center></td>
-    </tr>
-</table>
-                
 # 目录
 
 - [功能列表](#功能列表)
 - [文件结构](#文件结构)
-- [运行](#运行)
 - [Example说明](#Example说明)
 - - [集成Babylon.js](#集成Babylon.js)
 - - [集成Three.js](#集成Three.js)
 - - [集成Cesium.js](#集成Cesium.js)
 - [试用申请](#试用申请)
+- [运行Demo](#运行Demo)
 - [更新日志](#更新日志)
 
 
@@ -65,10 +54,6 @@
   - cesium: Cesium.js集成示例
   - three: Three.js集成示例
 
-
-# 运行
-在3DGS-SDK根目录下起一个http服务器（端口随意），即可访问examples下的示例
-![](doc/example.jpg)
 
 # Example说明
 
@@ -265,6 +250,22 @@ const render = () => {
 #  试用申请
 ![](doc/sensespace.jpg)
 
+
+# 运行Demo
+在3DGS-SDK根目录下起一个http服务器（端口随意），即可访问examples下的示例
+![](doc/example.jpg)
+
+
+<table>
+    <tr>
+        <td><center><video width = 450 src="https://github.com/user-attachments/assets/ba333ffc-55d0-449d-8464-9fe4742926d6">Cesium集成</center</td>
+        <td><center><video width = 450 src="https://github.com/user-attachments/assets/75bbf7b8-49cb-43e4-9787-8c32dc83b5db">求交及遮挡</center></td>
+    </tr>
+    <tr>
+        <td><center><video width = 450 src="https://github.com/user-attachments/assets/abad4274-b008-402c-95df-efd1444c1ceb">GIS位置及标签</center</td>
+        <td><center><video width = 450 src="https://github.com/user-attachments/assets/adda70a7-cb86-4a68-b8fa-c339b395c524">轮廓线高亮</center></td>
+    </tr>
+</table>
 
 #  更新日志
 
