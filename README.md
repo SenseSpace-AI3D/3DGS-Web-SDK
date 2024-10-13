@@ -1,5 +1,4 @@
 # 3DGS SDK WebGL
-![](doc/sensespace.jpg)
 
 版本v0.7.0, 发布日期: 2024年10月9日
 
@@ -238,6 +237,9 @@ const render = () => {
 
 // ...
 ```
+
+##  试用方式
+![](doc/sensespace.jpg)
 
 
 ##  更新日志
