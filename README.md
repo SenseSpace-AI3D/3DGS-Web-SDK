@@ -1,4 +1,4 @@
-# 宇琼SenseSpace 3DGS SDK 
+# SenseSpace 3DGS SDK 
 
 # 目录
 
