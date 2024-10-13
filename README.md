@@ -256,16 +256,6 @@ const render = () => {
 ![](doc/example.jpg)
 
 
-<table>
-    <tr>
-        <td><center><video width = 450 src="https://github.com/user-attachments/assets/ba333ffc-55d0-449d-8464-9fe4742926d6">Cesium集成</center</td>
-        <td><center><video width = 450 src="https://github.com/user-attachments/assets/75bbf7b8-49cb-43e4-9787-8c32dc83b5db">求交及遮挡</center></td>
-    </tr>
-    <tr>
-        <td><center><video width = 450 src="https://github.com/user-attachments/assets/abad4274-b008-402c-95df-efd1444c1ceb">GIS位置及标签</center</td>
-        <td><center><video width = 450 src="https://github.com/user-attachments/assets/adda70a7-cb86-4a68-b8fa-c339b395c524">轮廓线高亮</center></td>
-    </tr>
-</table>
 
 #  更新日志
 
