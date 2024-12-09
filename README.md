@@ -1,4 +1,4 @@
-# SenseSpace 3DGS SDK 
+# SenseSpace 3DGS Web SDK 
 
 <table>
     <tr>
